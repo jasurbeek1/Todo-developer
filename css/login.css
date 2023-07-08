@@ -1,0 +1,51 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgb(23, 2, 73);
+  box-shadow: 10px 10px 10px rgb(255, 255, 255);
+  height: 50%;
+  border-radius: 20px;
+  position: absolute;
+  right: 30%;
+  top: 20%;
+}
+
+#formLogin {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+#userEmail, #userPassword, #userName {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: 0;
+}
+
+#userEmail, #userPassword, #userName:active {
+  border: 0;
+  border-color: aqua;
+}
+
+#loginBtn {
+  background-color: aqua;
+  color: black;
+  padding: 10px 10px;
+  border: 0;
+}
+
+#link {
+  color: aqua;
+  position: absolute;
+  right: 22%;
+  top: 75%;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(16, 0, 54);
+  position: relative;
+}/*# sourceMappingURL=login.css.map */
